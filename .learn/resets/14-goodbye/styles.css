@@ -1,0 +1,79 @@
+body {
+	background: black;
+}
+
+* {
+	border: 1px dashed red;
+	min-height: 10px;
+}
+
+p {
+	color: black;
+	font-size: 16px;
+}
+
+.postcard {
+	/* tus estilos van aquí */
+	background-color: white;
+	width: 400px;
+	height: 300px;
+	margin: auto;
+}
+
+.postcard-header {
+	display: flex;
+}
+
+.postcard-header img {
+	width: 50px;
+	height: 50px;
+}
+
+.postcard-header h1 {
+	width: 350px;
+	height: 50px;
+	margin: 0;
+}
+
+.postcard-body {
+	display: flex;
+}
+
+.body-left {
+	padding: 5px;
+	width: 225px;
+}
+
+.body-left p:first-child {
+	margin-top: 0;
+}
+
+.body-right {
+	padding: 5px;
+	font-size: 15px;
+	width: 175px;
+}
+
+input {
+	border: none;
+	border-bottom: 1px solid lightgrey; /* Subrayado */
+	width: 175px; /* Ancho del campo */
+}
+
+.postcard-footer {
+	text-align: center;
+	color: black;
+}
+
+button {
+	background-color: gray;
+	/* padding: 5px; */
+	text-decoration: none;
+	display: inline-block;
+}
+
+.button:hover {
+	/* YOUR CODE HERE FOR THE HOVER STATE */
+	background-color: darkgray;
+	text-decoration: none;
+}
